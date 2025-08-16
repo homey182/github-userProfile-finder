@@ -49,7 +49,7 @@ function decorateProfile(details) {
             <img src="${avatar_url}" alt="${login} avatar" class="w-24 h-24 rounded-2xl object-cover" />
             <div class="flex-1">
               <div class="text-xl font-semibold text-slate-100">${displayName}</div>
-                            <div class="mt-3 text-sm text-slate-300">${company}</div>
+                            <div class="mt-3 text-sm text-slate-300">${displayCompany}</div>
 
               <div class="mt-3 text-sm text-slate-300">${displayBio}</div>
               <div class="mt-4 flex flex-wrap items-center gap-2 text-sm text-slate-300">
